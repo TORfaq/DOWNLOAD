@@ -1,0 +1,95 @@
+@media (max-width:1250px){
+*{box-sizing:border-box;max-width:100%;}
+table{table-layout:fixed;width:100%;}
+img{max-width:100% !important;height:auto;}
+body{margin:0px;padding:0px;}
+iframe{max-width:100% !important;}
+object{max-width:100% !important;}
+header{float:left;height:auto;width:100%;}
+.bg_top{float:left;height:auto;min-width:100%;width:100%;}
+.logo{left:40%;}
+.bg_top .wrap{padding-left:15px;padding-right:15px;}
+.navigation > ul > li{padding-left:15px;padding-right:15px;}
+header > .wrap{float:left;height:auto;padding-left:15px;padding-right:15px;width:100%;}
+.cap{width:250px;}
+.phones{width:200px;}
+.unslider{min-width:100%;width:100%;}
+.slide{min-width:100%;max-height:515px;}
+.unslider-wrap.unslider-carousel{max-width:1000% !important;}
+.unslider-nav ol li{width:9px;height:9px;}
+.slide_t1 {padding:0 30px 35px 30px;}
+.slide_t2{font-size:40px;height:auto; line-height:20px;}
+.slide_e{font-size:18px;}
+.slide_go a, .button a {line-height:53px;}
+.book a {font-size:14px;line-height:30px;}
+.wrap{width:100%;}
+.services, .novosti{text-align:center;padding-left:10px;padding-right:10px;}
+.service, div.news{display:inline-block;float:none;width:32%;min-width:350px;height:auto;margin-left:auto;margin-right:1%;}
+.service a, div.news a{background-size:contain;background-position:center center;}
+.headline, .headline2, .headline h1{font-size:42px;}
+.privil{height:auto;margin-left:0.6%;margin-right:0.6%;padding-left:15px;padding-right:15px;width:32%;}
+footer{float:left;height:auto;width:100%;}
+footer > div{float:left;height:auto !important;padding-left:15px !important;padding-right:15px !important;width:100% !important;}
+footer .cap{width:50%;}
+footer .phones{padding:5px;}
+.telephone > div{clear:both;float:none;margin-left:auto;margin-right:auto;}
+.telephone .telephone_t:nth-child(odd) {padding:0;}
+.telephone .telephone_t:nth-child(even) {display:none;}
+.bg_bot{height:auto;min-width:100%;width:100%;}
+.bot_top div.cap {padding:10px 0 15px 0;}
+}
+@media (max-width:950px){
+.headline a{display:none;}
+.prices th{font-size:15px;line-height:18px;}
+}
+@media (max-width:767px){
+div.logo{clear:both;float:left;position:relative;left:auto;top:5px;width:90px;height:90px;}
+.wrap{padding-bottom:5px;}
+.logo > a{background:url('../images/logo2.png');background-repeat: no-repeat;background-size:contain;height:100%;width:100%;}
+.navigation{min-width:45%;float:right; margin-left:auto;margin-right:auto;}
+.navigation > ul{float:right;}
+div.phones {width:100%; padding:0px;}
+.headline_info{padding-left:10px;padding-right:10px;}
+.service, div.news{float:none;margin-left:auto;margin-right:auto;width:100%;min-width:100%;}
+.headline, .headline2, .headline h1{font-size:36px;}
+.cap, .prices{width:100%;}
+.review_t{max-width:50%;font-size:20px;line-height:24px; text-align:left;}
+.prices th, td{padding:10px 12px 10px;}
+.prices th{font-size:17px;text-transform:none;}
+.pricing_block{padding:50px 0;}
+.pricing{padding:0 5%;text-align:center}
+.pricing h2{font-size:25px;}
+.pricing span{font-size:28px;}
+.pricing span b {font-size:20px;}
+.pricing b{font-size:17px;}
+div.privil{clear:both;float:none;margin-left:auto;margin-right:auto;margin-top:15px;width:300px;}
+.slide_t1{font-size:14px;}
+.slide_t2{font-size:27px;padding-left:10px;padding-right:10px;}
+.slide_e{height:auto;padding-left:10px;padding-right:10px;padding-top:20px;}
+.slide_go{width:200px;padding:25px 0 29px 0;font-size:12px;line-height:19px; }
+.slide_go a{width:196px;height:50px;font-size:16px;line-height:47px;text-decoration:none;}
+.book, .book a {width:190px;font-size:16px;height:32px;line-height:32px;}
+.socials > div{clear:both;float:none;margin-left:auto;margin-right:auto;}
+.copy, .footlinks {width:100%;text-align:center;padding:15px 0 0 0;}
+.footlinks a {font-size:13px;}
+.copy {padding-bottom:15px;}
+.address, .telephone_t, .bot_top div.cap, footer .ranks {display:none;}
+}
+@media (max-width:430px){
+div.logo{width:80px;height:80px;top:10px;}    
+.navigation li a{font-size:14px;}
+.prices th{font-size:13px;line-height:14px;}
+.prices td.first{font-size:13px;line-height:14px;text-transform:none;}
+.prices td span{font-size:14px; font-weight:500;}
+.navigation > ul > li{padding-left:7px;padding-right:7px;}
+.owl-service .owl-nav button.owl-prev,.owl-service .owl-nav button.owl-next{color:rgba(255, 255, 255, 0.5)!important;}
+.headline, .headline2, .headline h1{font-size:26px;line-height:32px;padding-bottom:15px;}
+.headline_info{font-size:14px;}
+.slide{min-width:100%;max-height:300px;}
+.slide li{height:300px;padding:35px 0 15px 0;}
+.slide_t1{font-size:12px;}
+.slide_t2{font-size:22px;padding-left:10px;padding-right:10px;}
+.slide_e {font-size:14px; padding:5px 0 5px 0;}
+.slide_go{width:144px;padding:10px 0 15px 0;font-size:13px;line-height:15px; }
+.slide_go a{width:150px;height:40px;font-size:15px;line-height:37px;text-decoration:none;}
+}
